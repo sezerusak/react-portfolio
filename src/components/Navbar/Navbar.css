@@ -1,6 +1,6 @@
 nav {
   font-size: 2rem;
-  margin: 4rem 12rem;
+  margin: 4rem 12rem 4rem 9rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -17,7 +17,7 @@ nav img {
 }
 
 .nav-links li:hover {
-  color: var(--main-color);
+  color: var(--dark-green-2);
 }
 
 .menu-icon,
@@ -40,7 +40,7 @@ nav img {
     top: 0;
     right: -40rem;
     width: 40rem;
-    opacity: 0.9;
+    opacity: 0.95;
     display: flex;
     flex-direction: column;
     align-items: center;
