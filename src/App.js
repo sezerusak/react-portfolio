@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Header from "./components/Header/Header";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer/Footer";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import { useRef } from "react";
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       <Header navLinks={navLinks} />
       <Projects navLinks={navLinks} />
       <Footer navLinks={navLinks} />
+      <ScrollToTop />
     </div>
   );
 }
