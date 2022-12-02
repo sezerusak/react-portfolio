@@ -1,0 +1,60 @@
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 75rem;
+  margin: 10rem 16.5rem 16.5rem 16.5rem;
+}
+
+.snippet-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  align-items: center;
+}
+
+.snippet-info h1 {
+  font-size: 3.6rem;
+  font-weight: 600;
+}
+.snippet-info p {
+  font-size: 2.4rem;
+  color: var(--main-color);
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  gap: 3.5rem;
+}
+
+.skill {
+  font-size: 2rem;
+  background-color: var(--grey);
+  padding: 1.5rem 2rem;
+  border-radius: 1rem;
+}
+
+.skill:hover {
+  background-color: var(--light-green);
+  color: var(--light-grey);
+}
+
+.about {
+  background-color: var(--main-color);
+  max-width: 110rem;
+  padding: 6rem;
+  border-radius: 3rem;
+}
+
+.about h2 {
+  color: #fff;
+  font-size: 3rem;
+}
+
+.about p {
+  color: var(--light-grey);
+  font-size: 2.4rem;
+  line-height: 4rem;
+}

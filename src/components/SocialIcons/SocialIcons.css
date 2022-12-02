@@ -1,0 +1,17 @@
+.social-icons {
+  display: flex;
+  gap: 3.5rem;
+}
+
+.icon-container {
+  background-color: var(--grey);
+  padding: 1.2rem;
+  border-radius: 30%;
+  font-size: 2.7rem;
+  display: flex;
+}
+
+.icon-container:hover {
+  background-color: var(--light-green);
+  color: var(--light-grey);
+}
