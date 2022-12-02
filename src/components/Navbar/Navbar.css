@@ -25,6 +25,10 @@ nav img {
   display: none;
 }
 
+.close-icon {
+  color: var(--dark-green-2);
+}
+
 @media only screen and (max-width: 770px) {
   .menu-icon,
   .close-icon {
