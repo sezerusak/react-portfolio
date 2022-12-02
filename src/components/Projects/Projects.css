@@ -85,6 +85,7 @@
 .btn-more:hover {
   background-color: var(--main-color);
   color: #fff;
+  transition: all 0.2s;
 }
 
 .more-container {

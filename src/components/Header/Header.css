@@ -89,6 +89,13 @@ header {
   }
 }
 
+@media only screen and (max-width: 415px) {
+  .skill {
+    font-size: 2rem;
+    padding: 1.2rem 1.5rem;
+  }
+}
+
 @media only screen and (max-width: 390px) {
   .skills {
     gap: 0.2rem;
@@ -96,7 +103,10 @@ header {
 
   .skill {
     font-size: 2rem;
-    background-color: var(--grey);
     padding: 0.8rem 1rem;
+  }
+
+  .snippet-info p {
+    font-size: 2rem;
   }
 }
