@@ -60,3 +60,9 @@ nav img {
     cursor: pointer;
   }
 }
+
+@media only screen and (max-width: 520px) {
+  nav {
+    margin: 3rem 5rem 4rem 3rem;
+  }
+}
