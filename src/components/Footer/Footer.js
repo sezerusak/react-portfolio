@@ -9,7 +9,7 @@ const Footer = ({ navLinks }) => {
       <h2>Contact me</h2>
       <SocialIcons />
       <p>
-        Copyright <span>©</span> 2022 Sezer Uşak
+        Copyright <span>©</span> {new Date().getFullYear()} Sezer Uşak
       </p>
     </footer>
   );
