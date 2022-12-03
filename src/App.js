@@ -6,6 +6,7 @@ import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import { useRef } from "react";
 
 function App() {
+  //Reference hooks to sections for scrolling
   const about = useRef(null);
   const projects = useRef(null);
   const contact = useRef(null);

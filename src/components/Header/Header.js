@@ -13,8 +13,12 @@ const Hero = ({ navLinks }) => {
         <SocialIcons />
       </div>
       <div className="skills">
-        {skills.map((skill) => {
-          return <span className="skill">{skill}</span>;
+        {skills.map((skill, index) => {
+          return (
+            <span className="skill" key={index}>
+              {skill}
+            </span>
+          );
         })}
       </div>
       <div className="about" ref={about}>
