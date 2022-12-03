@@ -36,6 +36,7 @@ nav img {
     font-size: 4rem;
   }
 
+  /* Navbar moved to the side for mobile devices */
   .nav-links {
     background-color: var(--dark-green);
     color: #fff;
