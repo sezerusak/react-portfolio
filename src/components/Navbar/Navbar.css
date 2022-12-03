@@ -14,10 +14,12 @@ nav img {
   display: flex;
   gap: 6.5rem;
   cursor: pointer;
+  transition: scale 0.3s;
 }
 
 .nav-links li:hover {
   color: var(--dark-green-2);
+  transform: scale(1.05);
 }
 
 .menu-icon,
